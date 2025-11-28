@@ -11,7 +11,7 @@ This application implements a complete data pipeline using event-driven microser
 This project was developed as a practical learning exercise to gain hands on experience with Kubernetes orchestration, container deployment patterns, and cloud native application architecture. The implementation focuses on demonstrating production ready patterns including StatefulSets for stateful workloads, CronJobs for scheduled tasks, Horizontal Pod Autoscaling for dynamic resource management, and proper configuration management through ConfigMaps and Secrets.
  
 ## Architecture Components
-
+ 
 ### Backend Services
 
 The **Scraper Service** is a Python Flask application that interfaces with Alpha Vantage for market data and NewsAPI for financial news. It implements retry logic, rate limiting compliance, and stores normalized data in PostgreSQL with appropriate indexing for query performance.
