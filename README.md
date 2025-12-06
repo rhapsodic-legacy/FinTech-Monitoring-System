@@ -6,7 +6,7 @@ A production grade financial monitoring system built to demonstrate advanced Kub
 
 This application implements a complete data pipeline using event-driven microservices architecture. Market data flows from external APIs through a scraper service into a PostgreSQL database. An analyzer service processes this data alongside news articles using Google's Gemini AI to generate sentiment scores and composite trading signals. An alert service monitors these signals and triggers notifications when specified thresholds are exceeded. A React based dashboard provides real-time visualization of market movements, sentiment trends, and system status.
  
-## Learning Objectives
+## Learning Objectives 
 
 This project was developed as a practical learning exercise to gain hands on experience with Kubernetes orchestration, container deployment patterns, and cloud native application architecture. The implementation focuses on demonstrating production ready patterns including StatefulSets for stateful workloads, CronJobs for scheduled tasks, Horizontal Pod Autoscaling for dynamic resource management, and proper configuration management through ConfigMaps and Secrets.
  
