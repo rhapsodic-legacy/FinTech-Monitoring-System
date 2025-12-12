@@ -1,7 +1,7 @@
 # FinTech Kubernetes Monitoring System           
 
 A production grade financial monitoring system built to demonstrate advanced Kubernetes orchestration patterns and microservices architecture. The system aggregates real time market data, performs AI-powered sentiment analysis on financial news, and generates automated trading signals with configurable alert thresholds.
-  
+   
 ## System Overview  
 
 This application implements a complete data pipeline using event-driven microservices architecture. Market data flows from external APIs through a scraper service into a PostgreSQL database. An analyzer service processes this data alongside news articles using Google's Gemini AI to generate sentiment scores and composite trading signals. An alert service monitors these signals and triggers notifications when specified thresholds are exceeded. A React based dashboard provides real-time visualization of market movements, sentiment trends, and system status.
