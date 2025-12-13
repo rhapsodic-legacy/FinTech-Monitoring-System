@@ -1,4 +1,4 @@
-# FinTech Kubernetes Monitoring System            
+# FinTech Kubernetes Monitoring System             
 
 A production grade financial monitoring system built to demonstrate advanced Kubernetes orchestration patterns and microservices architecture. The system aggregates real time market data, performs AI-powered sentiment analysis on financial news, and generates automated trading signals with configurable alert thresholds.
     
